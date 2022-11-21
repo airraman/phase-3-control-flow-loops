@@ -1,5 +1,11 @@
+require "pry"
+
 def happy_new_year
-  # your code here
+  number = 11
+  until number == 1
+    puts number -= 1
+  end
+  puts "Happy New Year!"
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
@@ -16,7 +22,11 @@ def fizzbuzz(num)
 end
 
 def fizzbuzz_printer
-  # your code here
+  num = 0 
+  until num == 100
+    num += 1
+    puts fizzbuzz(num)
+  end
 end
 
 def reverse_string(str)

@@ -40,6 +40,7 @@ function fizzbuzz(num) {
   it. Don't use the built-in `.reverse` method. Instead, loop through the
   characters in the input string and reverse it.
 */
+
 function reverseString(str) {
   let reversedStr = "";
   for (let i = 0; i < str.length; i++) {
